@@ -1,4 +1,64 @@
-<body>
-  A long, long time ago (not in a galaxy far away....that would be <a href="https://starwars.com">Star Wars</a>, webpages were single documents.  Now we have web sites.  Pages like <a href="https://www.google.com">Google Search Engine</a>
-  are really single pages only because they dynamically create pages.  Today, we will go to <a href="https://classroom.google.com">Google Classroom</a> and look at how links have evolved over time.
-</body>
+<!DOCTYPE html>
+<html>
+  <style>
+    ul.navigation {
+      width:175;
+    }
+    li {
+        list-style-type: none;
+        width: 175px;
+        border: 2px solid rgb(31, 32, 34);
+        color: white;
+        background-color:rgb(31, 32, 34);
+        padding:5px;
+        text-align:center;
+        transition: background-color 0.2s, width 0.2s;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 20px;
+    }
+    li:hover {
+        color:rgb(255, 255, 255);
+        background-color: rgb(94, 94, 94);
+        left:0px;
+        font-weight:bold;
+        width:200px;
+        border: 2px solid rgb(94, 94, 94)
+    }
+    a,
+    a:visited,
+    a:link {
+      text-decoration:none;
+    }
+    #div {
+      display: block;
+      top: 50px;
+      margin-left: auto;
+      margin-right: auto;
+
+    }
+    #div2 {
+      position:absolute;
+      bottom: 20px;
+      right: 20px;
+    }
+  </style>
+  <div>
+  <img id="div" src="AC.png" width="400">
+</div>
+<ul class="navigation">
+<a href="games.html"><li>Games</li></a>
+<br>
+<a href="maincharacters.html"><li>Main Characters</li></a>
+<br>
+<a href="overarchingstory.html"><li>Overarching Story</li></a>
+<br>
+<a href="history.html"><li>History</li></a>
+<br>
+<a href="about.html"><li>About</li></a>
+<div>
+  <img id="div2" src="Ubi.png" width="100">
+</div>
+</ul>
+</html>
