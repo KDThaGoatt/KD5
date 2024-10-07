@@ -1,0 +1,107 @@
+
+        #div1 {
+            position:absolute;
+top: 50px;
+left: 25px;
+border:2px solid black;
+border-radius: 5px
+        }
+        #div2 {
+            display:block;
+margin-top: 50px;
+margin-left: auto;
+margin-right: auto;
+border:2px solid black;
+border-radius: 5px
+        }
+        #div3 {
+            position: absolute;
+            top:50px;
+            right:25px;
+            border:2px solid black;
+            border-radius: 5px
+        }
+        #div4 {
+position:absolute;
+top: 275px;
+left: 25px;
+border:2px solid black;
+border-radius: 5px
+        }
+        #div5 {
+            display:block;
+            margin-top:21px;
+            margin-left: auto;
+            margin-right: auto;
+            border: 2px solid black;
+            border-radius: 5px
+        }
+        #div6 {
+            position:absolute;
+            top:275px;
+            right: 25px;
+            border: 2px solid black;
+            border-radius: 5px
+        }
+        #div7 {
+            position:absolute;
+            top:500px;
+            left: 25px;
+            border: 2px solid black;
+            border-radius: 5px
+        }
+        #div8 {
+            display:block;
+            margin-top:21px;
+            margin-left: auto;
+            margin-right: auto;
+            border: 2px solid black;
+            border-radius: 5px
+        }
+        #div9 {
+            position:absolute;
+            top:500px;
+            right: 25px;
+            border: 2px solid black;
+            border-radius: 5px
+        }
+        #div10 {
+            position:absolute;
+            top:725px;
+            left: 25px;
+            border: 2px solid black;
+            border-radius: 5px
+        }
+        #div11 {
+            display:block;
+            margin-top:21px;
+            margin-left: auto;
+            margin-right: auto;
+            border: 2px solid black;
+            border-radius: 5px
+        }
+        #div12 {
+            position:absolute;
+            top:725px;
+            right: 25px;
+            border: 2px solid black;
+            border-radius: 5px
+        }
+        #div13 {
+            position:absolute;
+            top:950px;
+            left: 25px;
+            border: 2px solid black;
+            border-radius: 5px
+        }
+        #div14 {
+            position:absolute;
+            top:950px;
+            right: 25px;
+            border: 2px solid black;
+            border-radius: 5px
+        }
+        #div1 {
+background-color: lightgrey;
+
+        }
