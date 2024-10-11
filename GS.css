@@ -1,7 +1,7 @@
 
         #div1 {
             position:absolute;
-top: 50px;
+top: 75px;
 left: 25px;
 border:2px solid black;
 border-radius: 5px
@@ -16,7 +16,7 @@ border-radius: 5px
         }
         #div3 {
             position: absolute;
-            top:50px;
+            top:75px;
             right:25px;
             border:2px solid black;
             border-radius: 5px

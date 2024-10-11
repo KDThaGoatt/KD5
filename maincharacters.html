@@ -2,7 +2,45 @@
 <html>
 <head>
     <link rel="stylesheet" href="GS.css">
+    <style>
+        ol {
+            display: flex;
+        }
+    
+        li {
+            list-style-type: none;
+            width: 125px;
+            height: 40px;
+            border: 2px solid rgb(31, 32, 34);
+            color: white;
+            background-color:rgb(31, 32, 34);
+            padding:5px;
+            text-align:center;
+            transition: background-color 0.2s, width 0.2s;
+            display: inline-block;
+        }
+        li:hover {
+            font-weight:bold;
+            background-color: rgb(94,94,94);
+            transition:0.2s;
+            font-weight:bold;
+        }
+    a,
+    a:visited,
+    a:link {
+        text-decoration:none;
+    }
+    
+    </style>
+    
 </head>
+<ol>
+        <a href="index.html"><li>Main Page</li></a>
+        <a href="games.html"><li>Games</li></a>
+        <a href="maincharacters.html"><li>Characters</li></a>
+        <a href="overarchingstory.html"><li>Overarching Story</li></a>
+        <a href="about.html"><li>About</li></a>
+    </ol>
 <img id="div1" src="ALTAIR.jpg" height="200" width="155">
 <img id="div2" src="EZIO.jpg" height="200" width="155">
 <img id="div3" src="EZIO.jpg" height="200" width="155">
